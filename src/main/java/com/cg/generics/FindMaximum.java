@@ -26,9 +26,22 @@ public class FindMaximum {
         return max;
     }
 
+    public static String testMax(String strX,String strY,String strZ){
+        String max = strX;
+        if(strY.compareTo( max )>0){
+            max = strY;
+        }
+        if(strZ.compareTo( max )>0){
+            max = strZ;
+        }
+        return max;
+    }
+
     public static void main (String args[]){
         System.out.println(testMax( 10,12,7 ));
         System.out.println(testMax( 10.2f,12.4f,7.8f ));
+        System.out.println(testMax( "Apple","Peach","Banana" ));
+
 
     }
 }

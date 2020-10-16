@@ -45,4 +45,23 @@ public class FindMaximumTest {
         Float f=new Float( 10.4f );
         Assert.assertEquals( f,findMax,0.001);
     }
+
+    @Test
+    public void given3String_whenGiven_ShouldReturnFirstStringMax(){
+        String findMax = findMaximum.testMax("Peach","Apple","Banana");
+        Assert.assertEquals( "Peach",findMax );
+
+    }
+
+    @Test
+    public void given3String_whenGiven_ShouldReturnSecondStringMax(){
+        String findMax = findMaximum.testMax("Apple","Peach","Banana");
+        Assert.assertEquals( "Peach",findMax );
+    }
+
+    @Test
+    public void given3String_whenGiven_ShouldReturnThirdStringMax(){
+        String findMax = findMaximum.testMax("Apple","Banana","Peach");
+        Assert.assertEquals( "Peach",findMax );
+    }
 }
