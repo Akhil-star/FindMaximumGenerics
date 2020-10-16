@@ -1,6 +1,4 @@
 package com.cg.generics;
-
-
 import java.util.Arrays;
 
 public class FindMaximum <T extends Comparable<T>>{
@@ -19,17 +17,12 @@ public class FindMaximum <T extends Comparable<T>>{
         if (elements == null) {
             System.out.println( "Could not find maximum" );
             return null;
-        } else {
-            for (T element : elements) {
-                if (element.compareTo( max ) > 0) {
-                    max = element;
-                }
-            }
-            return max;
+        }else {
+            Arrays.sort( elements );
+            return elements[elements.length-1];
         }
     }
-
-
+    
     public static void main (String args[]){
         System.out.println(new FindMaximum( 10,12,7,2,15 ).testMax());
         System.out.println(new FindMaximum( 10.2f,12.4f,7.8f ).testMax());
