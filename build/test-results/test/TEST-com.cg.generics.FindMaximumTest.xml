@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.cg.generics.FindMaximumTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-16T09:45:59" hostname="DESKTOP-AURK5V2" time="0.001">
+<testsuite name="com.cg.generics.FindMaximumTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-16T09:53:09" hostname="DESKTOP-AURK5V2" time="0.001">
   <properties/>
-  <testcase name="given3Float_whenGiven_ShouldReturnFirstFloatMax" classname="com.cg.generics.FindMaximumTest" time="0.001"/>
+  <testcase name="given3Integers_whenGiven_ShouldReturnThirdIntegerMax" classname="com.cg.generics.FindMaximumTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
