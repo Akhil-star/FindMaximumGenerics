@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.cg.generics.FindMaximumTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-10-16T10:47:06" hostname="DESKTOP-AURK5V2" time="0.004">
+<testsuite name="com.cg.generics.FindMaximumTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-10-16T11:40:45" hostname="DESKTOP-AURK5V2" time="0.003">
   <properties/>
   <testcase name="given3String_whenGiven_ShouldReturnSecondStringMax" classname="com.cg.generics.FindMaximumTest" time="0.002"/>
   <testcase name="given3Integers_whenGiven_ShouldReturnFirstIntegerMax" classname="com.cg.generics.FindMaximumTest" time="0.0"/>

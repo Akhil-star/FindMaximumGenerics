@@ -8,7 +8,7 @@ public class FindMaximumTest {
 
     @Test
     public void given3Integers_whenGiven_ShouldReturnFirstIntegerMax(){
-        Assert.assertSame( 10,new FindMaximum( 10,7,5 ).testMax() );
+        Assert.assertSame( 15,new FindMaximum( 15,7,5,10 ).testMax() );
     }
 
     @Test
