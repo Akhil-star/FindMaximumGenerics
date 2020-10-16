@@ -4,35 +4,13 @@ import java.util.Scanner;
 
 public class FindMaximum {
 
-    public static Integer testMax(Integer intX,Integer intY,Integer intZ){
-        Integer max = intX;
-        if(intY.compareTo( max )>0){
-            max = intY;
+    public static <T extends Comparable<T>> T testMax(T x,T y,T z){
+        T max = x;
+        if(y.compareTo( max )>0){
+            max = y;
         }
-        if(intZ.compareTo( max )>0){
-            max = intZ;
-        }
-        return max;
-    }
-
-    public static Float testMax(Float floatX,Float floatY,Float floatZ){
-        Float max = floatX;
-        if(floatY.compareTo( max )>0){
-            max = floatY;
-        }
-        if(floatZ.compareTo( max )>0){
-            max = floatZ;
-        }
-        return max;
-    }
-
-    public static String testMax(String strX,String strY,String strZ){
-        String max = strX;
-        if(strY.compareTo( max )>0){
-            max = strY;
-        }
-        if(strZ.compareTo( max )>0){
-            max = strZ;
+        if(z.compareTo( max )>0){
+            max = z;
         }
         return max;
     }
